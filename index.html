@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Waad Mohamed Gad Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#home" aria-label="Go to top">
+        <img src="./assets/uni-logo.png" alt="University Logo" class="brand__logo">
+        <span class="brand__text" data-i18n="portfolio">Portfolio</span>
+      </a>
+       
+      <nav class="nav" aria-label="Primary">
+        <a href="#about" data-i18n="about_title">About</a>
+        <a href="#skills" data-i18n="skills_title">Skills</a>
+        <a href="#projects" data-i18n="projects_title">Projects</a>
+        <a href="#contact" data-i18n="contact_title">Contact</a>
+      </nav>
+
+      <div class="topbar__actions">
+        <button id="themeToggle" class="btn btn--ghost" type="button" aria-label="Toggle dark mode">
+          🌙
+        </button>
+        <button id="langToggle" class="btn btn--ghost" type="button" aria-label="Switch language">
+          AR
+        </button>
+        <a class="btn" href="./assets/waad m.pdf" target="_blank" rel="noopener" data-i18n="Download_cv">Download CV</a>
+      </div>
+
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div id="mobileMenu" class="mobileMenu" hidden>
+      <div class="container mobileMenu__inner">
+        <a href="#about" class="mobileLink" data-i18n="about_title">About</a>
+        <a href="#skills" class="mobileLink" data-i18n="skills_title">Skills</a>
+        <a href="#projects" class="mobileLink" data-i18n="projects_title">Projects</a>
+        <a href="#contact" class="mobileLink" data-i18n="contact_title">Contact</a>
+        <div class="mobileMenu__actions">
+          <button id="themeToggleMobile" class="btn btn--ghost" type="button">🌙</button>
+          <button id="langToggleMobile" class="btn btn--ghost" type="button">AR</button>
+          <a class="btn" href="./assets/waad m.pdf" target="_blank" rel="noopener" data-i18n="Download_cv">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home">
+    <section class="hero">
+      <div class="container hero__grid">
+        
+
+        <div class="hero__content">
+          <p class="pill" data-i18n="hero_pill">Student Specializing in tourism and travel  technology </p>
+
+          <h1 class="hero__title">
+            <span data-i18n="hero_hi">Hi, I'm </span>
+            <span class="hero__name" data-i18n="hero_name">waad mohamed gad </span>
+          </h1>
+
+          <p class="hero__subtitle" data-i18n="hero_subtitle">
+            Certified Travel & Tourism Trainer (Amadeus) | Expert in Innovative Travel Experiences & Inclusive Tourism
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#projects" data-i18n="hero_btn_projects">View Projects</a>
+            <a class="btn btn--ghost" href="#contact" data-i18n="hero_btn_contact">Contact Me</a>
+          </div>
+
+          <div class="hero__meta">
+            <span class="metaItem">📍 <span data-i18n="hero_location">cairo , Egypt</span></span>
+            <span class="metaItem">🎓 <span data-i18n="hero_degree">East Port Said University of Technology</span></span>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <div class="profile">
+            <div class="avatar" aria-hidden="true">
+              <!-- Replace with your photo: assets/profile.jpg -->
+              <img src="WhatsApp Image 2026-03-01 at 4.44.29 PM.jpeg" alt="" />
+            </div>
+            <div class="profile__info">
+              <h2 class="profile__name" data-i18n="hero_name">waad mohamed </h2>
+              <p class="profile__role" data-i18n="profile_role">senior in industrial tourism and travel </p>
+              <div class="profile__links">
+                <a href="https://github.com//waadmohamedgad-web/waad" target="_blank" rel="noopener">GitHub</a>
+                <a href="https:////linkedin.com/in/waad-mohamed-gad-392268306" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="mailto:waadmohamedgad@gmail.com">Email</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat__num">2</div>
+              <div class="stat__label" data-i18n="stat_projects">Projects</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">9</div>
+              <div class="stat__label" data-i18n="stat_certificates">Certificates</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">8</div>
+              <div class="stat__label" data-i18n="stat_internships">Internships</div>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="about_title">About Me</h2>
+          <p class="muted" data-i18n="about_subtitle"></p>
+        </div>
+
+        <div class="card">
+          <p data-i18n="about_text">
+            A Certified Travel & Tourism Trainer accredited by Amadeus Egypt, with extensive field experience in Airport Operations and Travel Agencies. I specialize in designing exclusive travel programs and delivering distinguished customer service. My expertise combines technical GDS proficiency with strategic marketing to elevate the travel and tourism experience. Beyond operations, I am a passionate innovator dedicated to Accessible Tourism and community empowerment, through projects like 'Smart Sensory Vision' for the visually impaired and the 'Sinawy' initiative for local heritage .
+          </p>
+
+          <div class="grid2">
+            <div>
+              <h3 class="h3" data-i18n="about_highlights">Highlights</h3>
+              <ul class="list">
+                <li data-i18n="hl1">Participated in practical training in ship operation and maintenance</li>
+                <li data-i18n="hl2">Familiar with marine engines and onboard systems</li>
+                <li data-i18n="hl3">Committed to safety procedures and teamwork in marine environments</li>
+
+
+
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="h3" data-i18n="about_education">Education</h3>
+              <ul class="list">
+                <li><strong data-i18n="edu1">East Port Said University of Technology</strong> — <span data-i18n="edu1b">tourism and travel program  <span data-i18n="edu1b"></span>
+                <li data-i18n="edu2">Expected Graduation: 2026</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="skills_title">Skills</h2>
+        </div>
+
+        <div class="chips">
+          <span class="chip">amadeus Systems</span>
+          <span class="chip">PR</span>
+          <span class="chip">customer relationship</span>
+          <span class="chip">operation management</span>
+          <span class="chip">analytical thinking </span>
+          <span class="chip"> handling problems </span>
+        </div>
+
+        <div class="grid3">
+          <div class="card">
+            <h3 class="h3" data-i18n="skills_tech">Technical</h3>
+            <ul class="list">
+              <li>amedeus GDS </li>
+              <li> flight ticketkng  </li>
+              <li>Tour Planning </li>
+               <li>Tourism Marketing </li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 class="h3" data-i18n="skills_tools">Tools</h3>
+            <ul class="list">
+              <li>Amadeus</li>
+              <li>Microsoft Office</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 class="h3" data-i18n="skills_soft">Soft Skills</h3>
+            <ul class="list">
+              <li data-i18n="soft1">Communication</li>
+              <li data-i18n="soft2">Problem-solving</li>
+              <li data-i18n="soft3">Time management</li>
+           
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="projects_title">Projects</h2>
+        </div>
+
+        <div class="grid2">
+          <!-- Project Card -->
+          <article class="project card">
+            <div class="project__thumb">
+              <img src="WhatsApp Image 2026-03-02 at 9.14.12 PM.jpeg"   alt="Project screenshot placeholder"  />
+            </div>
+            <h3 class="h3">Sinawy</h3>
+            <p class="muted" data-i18n="p1_desc">(2nd Year Graduation Project)
+
+
+A graduation project dedicated to empowering the local community by integrating artisans into the tourism sector. The project focuses on highlighting hidden tourist gems and showcasing authentic Sinai traditions and customs as a core part of the travel experience. This initiative reflects my expertise in sustainable planning and my ability to innovate tourism solutions that balance economic growth with the preservation of cultural heritage.</p>
+            <div class="project__tags">
+              <span class="tag">Reviving Sinai’s Identity </span>    <span class="tag">Tourism & Heritage  </span>
+              
+            </div>
+            
+          </article>
+
+          <article class="project card">
+            <div class="project__thumb">
+              <img src="Wh256500.jpeg" alt="Project screenshot placeholder" />
+            </div>
+            <h3 class="h3">Smart Sensory Vision</h3>
+            <p class="muted" data-i18n="p2_desc">(4nd Year Graduation Project)
+
+              An innovative technological project designed to empower visually impaired travelers to explore Egyptian monuments independently. The system features 'Smart Glasses and Headphones' that provide detailed audio narration of historical artifacts, paired with a 'Smart White Cane' for seamless navigation within museums. This project reflects my commitment to Accessible Tourism and my ability to integrate modern technology into the travel industry to ensure an inclusive experience for all.</p>
+            <div class="project__tags">
+              <span class="tag">smart tourism </span>   <span class="tag">smart tourism </span>
+              
+
+            </div>
+            
+          </article>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="contact_title">Contact</h2>
+        </div>
+
+        <div class="grid2">
+          <div class="card">
+            <h3 class="h3" data-i18n="contact_quick">Quick Links</h3>
+            <div class="contactLinks">
+              <a class="btn" href="mailto:waadmohamedgad@gmail.com">Email</a>
+              <a class="btn btn--ghost" href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
+              <a class="btn btn--ghost" href="https://linkedin.com/in/waad-mohamed-gad-392268306" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+
+          </div>
+
+          <form class="card form" id="contactForm">
+            <label>
+              <span data-i18n="form_name">Your name</span>
+              <input required name="name" type="text" placeholder="Name" />
+            </label>
+
+            <label>
+              <span data-i18n="form_email">Your email</span>
+              <input required name="email" type="email" placeholder="you@example.com" />
+            </label>
+
+            <label>
+              <span data-i18n="form_message">Message</span>
+              <textarea required name="message" rows="5" placeholder="Write your message..."></textarea>
+            </label>
+
+            <button class="btn" type="submit" data-i18n="form_send">Send</button>
+            
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span>© <span id="year"></span> <span class="footerName">waad waad mohamed gad</span></span>
+        <a href="#home" class="toTop" data-i18n="back_to_top">Back to top ↑</a>
+      </div>
+    </footer>
+  </main>
+
+
+</body>
+</html>
