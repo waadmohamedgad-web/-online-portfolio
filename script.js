@@ -25,32 +25,36 @@ const I18N = {
   en: {
     portfolio:"Porfolio",
     Download_cv:"C.V.",
-    hero_pill: "Student Specializing in Industrial and Energy Systems",
+    hero_pill: "Student Specializing in tourism and travel technology",
     hero_hi: "Hi, I'm",
-    hero_name:"Mona Nashaat",
+    hero_name:"waad Mohamed ",
 
     hero_subtitle:
-      "I work on practical engineering projects in industrial and energy technologies. This portfolio showcases my technical skills and hands-on experience.",
+      "Certified Travel & Tourism Trainer (Amadeus) | Expert in Innovative Travel Experiences & Inclusive Tourism",
     hero_btn_projects: "View Projects",
     hero_btn_contact: "Contact Me",
-    hero_location: "Port Said, Egypt",
+    hero_location: "cairo, Egypt",
     hero_degree: "East Port Said University of Technology",
-    profile_role: "Junior Industrial Technician",
+    profile_role: "senior in industrial tourism and travel",
     stat_projects: "Projects",
     stat_certificates: "Certificates",
     stat_internships: "Internships",
 
     about_title: "About Me",
     about_text:
-      "I’m a student in Industrial and Energy Technology, interested in practical engineering applications and real-world industrial systems. I enjoy working on technical projects, learning new technologies, and applying theoretical knowledge in hands-on environments.",
+    
+      "A Certified Travel & Tourism Trainer accredited by Amadeus Egypt, with extensive field experience in Airport Operations and Travel Agencies. I specialize in designing exclusive travel programs and delivering distinguished customer service. My expertise combines technical GDS proficiency with strategic marketing to elevate the travel and tourism experience. Beyond operations, I am a passionate innovator dedicated to Accessible Tourism and community empowerment, through projects like 'Smart Sensory Vision' for the visually impaired and the 'Sinawy' initiative for local heritage.",
     about_highlights: "Highlights",
-    hl1: "Participated in practical training in ship operation and maintenance",
-    hl2: "Familiar with marine engines and onboard systems",
-    hl3: "Committed to safety procedures and teamwork in marine environments",
+    hl1: "training in blue sky travel",
+    hl2: "cairo international airport",
+    hl3: "new jessery travel",
+    hl4: "egypt air training academy",
+    hl5:"Egyptian Ministry of Civil Aviation",
+
     about_education: "Education",
     edu1: "East Port Said University of Technology",
-    edu1b: "Ship Operation and Maintenance Program",
-    edu2: "Expected Graduation: 2027",
+    edu1b: "tourism and travel Program",
+    edu2: "Expected Graduation: 2026",
 
     skills_title: "Skills",
     skills_tech: "Technical",
@@ -61,9 +65,9 @@ const I18N = {
     soft3: "Time management",
 
     projects_title: "Projects",
-    p1_desc: "A practical training project focused on ship engine inspection, maintenance procedures, and troubleshooting basic mechanical issues.",
-    p2_desc: "A technical project analyzing safety procedures in industrial or marine environments, including hazard identification and preventive measures.",
-    p3_desc: "A hands-on project involving basic electrical or mechanical systems used in industrial and energy environments.",
+    p1_desc: "(2nd Year Graduation Project) A graduation project dedicated to empowering the local community by integrating artisans into the tourism sector. The project focuses on highlighting hidden tourist gems and showcasing authentic Sinai traditions and customs as a core part of the travel experience. This initiative reflects my expertise in sustainable planning and my ability to innovate tourism solutions that balance economic growth with the preservation of cultural heritage.",
+    p2_desc: "(4nd Year Graduation Project) An innovative technological project designed to empower visually impaired travelers to explore Egyptian monuments independently. The system features 'Smart Glasses and Headphones' that provide detailed audio narration of historical artifacts, paired with a 'Smart White Cane' for seamless navigation within museums. This project reflects my commitment to Accessible Tourism and my ability to integrate modern technology into the travel industry to ensure an inclusive experience for all.",
+   
 
     contact_title: "Contact",
     contact_quick: "Quick Links",
@@ -79,16 +83,16 @@ const I18N = {
     portfolio:"ملف الأعمال الشخصي",
     Download_cv:"السيرة الذاتية",
 
-    hero_pill: "طالب متخصص في أنظمة الصناعة والطاقة",
+    hero_pill:" طالب متخصص في تكنولوجية السياحة والسفر ",
     hero_hi: "مرحبًا، أنا",
-    hero_name:"منى نشأت",
+    hero_name:"وعد محمد ",
     hero_subtitle:
-      "أعمل على مشاريع هندسية تطبيقية في مجالات الصناعة وتقنيات الطاقة. يعرض هذا الموقع مهاراتي التقنية وخبرتي العملية.",
+      "مدرب معتمد في مجال السفر والسياحة (أماديوس) | خبير في تجارب السفر المبتكرة والسياحة الشاملة.",
     hero_btn_projects: "عرض المشاريع",
     hero_btn_contact: "تواصل معي",
-    hero_location: "بورسعيد، مصر",
+    hero_location: "القاهرة ، مصر",
     hero_degree: "جامعة شرق بورسعيد التكنولوجية",
-    profile_role: "تقني صناعي ",
+    profile_role: "تقني سياحة وسفر  ",
     stat_projects: "المشاريع",
     stat_certificates: "الشهادات",
     stat_internships: "التدريبات",
@@ -96,14 +100,16 @@ const I18N = {
 
     about_title: "نبذة عني",
     about_text:
-      "أنا طالب في جامعة شرق بورسعيد التكنولوجية - برنامج تكنولوجيا صيانة وتشغيل السفن، مهتم بالتطبيقات الهندسية العملية والأنظمة الصناعية الواقعية. أستمتع بالعمل على المشاريع التقنية، وتعلم التقنيات الحديثة، وتطبيق المعرفة النظرية في بيئات عملية.",
+      "مدرب معتمد في مجال السفر والسياحة من شركة أماديوس مصر، أتمتع بخبرة ميدانية واسعة في عمليات المطارات ووكالات السفر. أتخصص في تصميم برامج سفر مميزة وتقديم خدمة عملاء استثنائية. تجمع خبرتي بين الكفاءة التقنية لأنظمة التوزيع العالمية (GDS) والتسويق الاستراتيجي للارتقاء بتجربة السفر والسياحة. إضافةً إلى العمليات التشغيلية، فأنا مبتكر شغوف ملتزم بالسياحة المُيسّرة وتمكين المجتمعات، من خلال مشاريع مثل 'الرؤية الحسية الذكية' للمكفوفين وضعاف البصر، ومبادرة 'سناوي' للتراث المحلي." ,
     about_highlights: "أبرز النقاط",
-    hl1: "المشاركة في تدريب عملي في تشغيل وصيانة السفن",
-    hl2: "الإلمام بالمحركات البحرية وأنظمة السفن",
-    hl3: "الالتزام بإجراءات السلامة والعمل الجماعي في البيئات البحرية",
+    hl1: "المشاركة في تدريب عملي في شركة بلو سكاي للسياحة  ",
+    hl2: "مطار القاهرة الدولي ",
+    hl3: "شركة نيو جيرسي للسياحة",
+    hl4: "اكاديميةمصر للطيران ",
+    hl5: "وزراة الطيران المدني المصرية",  
     about_education: "التعليم",
     edu1: "جامعة شرق بورسعيد التكنولوجية",
-    edu1b: "برنامج تكنولوجيا تشغيل وصيانة السفن",
+    edu1b: "برنامج تكنولوجيا  سياحة وسفر ",
     edu2: "متوقع التخرج: 2027",
 
     skills_title: "المهارات",
@@ -115,9 +121,8 @@ const I18N = {
     soft3: "إدارة الوقت",
 
     projects_title: "المشاريع",
-    p1_desc: "مشروع تدريب عملي يركز على فحص محركات السفن وإجراءات الصيانة واستكشاف الأعطال الميكانيكية الأساسية.",
-    p2_desc: "مشروع تقني لتحليل إجراءات السلامة في البيئات الصناعية أو البحرية، بما في ذلك تحديد المخاطر ووسائل الوقاية.",
-    p3_desc: "مشروع تطبيقي يتضمن أنظمة كهربائية أو ميكانيكية أساسية مستخدمة في البيئات الصناعية ومجالات الطاقة.",
+    p1_desc: " مشروع تخرج السنة الثانية: مشروع تخرج يهدف إلى تمكين المجتمع المحلي من خلال دمج الحرفيين في قطاع السياحة. يركز المشروع على إبراز المواقع السياحية الخفية وعرض التقاليد والعادات الأصيلة في سيناء كجزء أساسي من تجربة السفر. تعكس هذه المبادرة خبرتي في التخطيط المستدام وقدرتي على ابتكار حلول سياحية توازن بين النمو الاقتصادي والحفاظ على التراث الثقافي.",
+    p2_desc: " (مشروع تخرج السنة الرابعة) مشروع تقني مبتكر مصمم لتمكين المسافرين ذوي الإعاقة البصرية من استكشاف الآثار المصرية بشكل مستقل. يتضمن النظام نظارات وسماعات ذكية توفر شرحًا صوتيًا مفصلًا للقطع الأثرية التاريخية، بالإضافة إلى عصا بيضاء ذكية لتسهيل التنقل داخل المتاحف. يعكس هذا المشروع التزامي بالسياحة المُيسّرة وقدرتي على دمج التكنولوجيا الحديثة في قطاع السفر لضمان تجربة شاملة للجميع.",
 
     contact_title: "التواصل",
     contact_quick: "روابط سريعة",
