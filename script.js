@@ -54,7 +54,7 @@ const I18N = {
     about_education: "Education",
     edu1: "East Port Said University of Technology",
     edu1b: "tourism and travel Program",
-    edu2: "Expected Graduation: 2026",
+    edu2: "Graduation: 2026",
 
     skills_title: "Skills",
     skills_tech: "Technical",
@@ -110,7 +110,7 @@ const I18N = {
     about_education: "التعليم",
     edu1: "جامعة شرق بورسعيد التكنولوجية",
     edu1b: "برنامج تكنولوجيا  سياحة وسفر ",
-    edu2: "متوقع التخرج: 2026",
+    edu2: " التخرج: 2026",
 
     skills_title: "المهارات",
     skills_tech: "المهارات التقنية",
